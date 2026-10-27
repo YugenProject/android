@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Project names are org-prefixed (LineageOS/...), so the fetch base is the
+       GitHub root rather than the org. -->
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com"
            review="review.lineageos.org" />
+
+  <remote  name="yugen"
+           fetch="https://github.com/YugenProject" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -1103,4 +1108,5 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/yugen.xml" />
 </manifest>
