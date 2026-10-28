@@ -6,6 +6,18 @@
     `repo forall` and patch scripts keep working unchanged.
   -->
 
+  <!-- The Clover Project (GitLab): Pixel GMS payload and Pixel apps -->
+  <project path="vendor/pixel/gms" name="vendor_pixel_gms_17" remote="clover"
+           revision="17" clone-depth="1" />
+  <project path="vendor/pixel/launcher" name="vendor_pixel_launcher" remote="clover"
+           revision="17" clone-depth="1" />
+  <project path="vendor/pixel/sounds" name="vendor_pixel_sounds" remote="clover"
+           revision="17" clone-depth="1" />
+  <project path="vendor/pixel/themepicker" name="vendor_pixel_themepicker" remote="clover"
+           revision="17" clone-depth="1" />
+  <project path="vendor/pixel/extract-utils" name="vendor_pixel_extract-utils" remote="clover"
+           revision="17" />
+
   <!-- manifest itself, so the tree carries Yugen's copy -->
   <remove-project name="LineageOS/android" />
   <project path="android" name="android" remote="yugen" />

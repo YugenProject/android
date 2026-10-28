@@ -10,6 +10,9 @@
   <remote  name="yugen"
            fetch="https://github.com/YugenProject" />
 
+  <remote  name="clover"
+           fetch="https://gitlab.com/thecloverproject" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
