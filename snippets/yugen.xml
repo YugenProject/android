@@ -67,8 +67,4 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3"
            groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="yugen" />
 
-  <!-- Evolution-X GMS prebuilts and product definitions -->
-  <project path="vendor/gms" name="YugenProject/vendor_gms"
-           revision="cnb" clone-depth="1" remote="github" />
-
 </manifest>
