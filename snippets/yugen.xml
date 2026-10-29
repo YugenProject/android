@@ -43,6 +43,10 @@
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings"
            groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="yugen" />
+  <!-- Katachi, Yugen's personalization surface. Nested inside the Settings checkout and
+       compiled into the Settings APK, so it has to exist before Settings is built. -->
+  <project path="packages/apps/Settings/Katachi" name="android_packages_apps_Katachi"
+           groups="pdk-fs" remote="yugen" />
 
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="yugen" />
